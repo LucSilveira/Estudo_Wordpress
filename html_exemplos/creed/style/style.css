@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background: #000;
+}
+
+/* Estilizando o cabecalho */
+header
+{
+  padding: 0.25rem 1rem;
+  /* background-color: #000; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header *
+{
+  fill: rgb(255, 255, 255);
+  color: white;
+}
+
+header svg.icon,
+header img.logo-franquia
+{
+  width: 10%;
+}
+
+header nav ul
+{
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li a
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 0rem 1rem;
+  text-decoration: none;
+  transition: 0.5s all;
+}
+
+header nav ul li a:hover
+{
+  font-size: 18px;
+  text-shadow: rgb(20 5 245) 0px 0px 23px;
+}
+
+/* Estilizando o conteudo do banner */
+section div.card-information
+{
+  width: 100%;
+  /* filter: brightness(); */
+
+  background-image: url("https://image.winudf.com/v2/image/YmF5YW5nYW1lLndhbGxwYXBlci5jcmVlZF9zY3JlZW5fMF8xNTE3NDQwNTI1XzA3Ng/screen-0.jpg?fakeurl=1&type=.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section div.card-information p
+{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding: 10% 0;
+  background: #00000085;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilixando a lista de jogos */
+section.list-games
+{
+  padding: 5rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+section.list-games div.card-game
+{
+  min-width: 35vw;
+  
+  margin: 0 1rem 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgb(133, 133, 133);
+  
+  transition: 1s all;
+}
+
+section.list-games div.card-game:hover
+{
+  min-width: 38vw;
+}
+
+section.list-games div.card-game img
+{
+  width: 80%;
+}
+
+section.list-games div.card-game:hover img
+{
+  width: 85%;
+}
+
+section.list-games div.card-game h2
+{
+  font-size: 25px;
+  margin: 1rem 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+section.list-games div.card-game a button
+{
+  text-decoration: none;
+  width: 150px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgb(2 55 210); 
+}
