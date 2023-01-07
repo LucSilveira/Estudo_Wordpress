@@ -1,0 +1,50 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: black;
+  color: white;
+}
+
+.nav_content_lst
+{
+  width: 100%;
+  background-color: yellow;
+}
+
+nav.nav_content_lst ul
+{
+  list-style-type: none;
+  
+  display: flex;
+}
+
+nav.nav_content_lst ul li
+{
+  padding: 0 1rem;
+}
+
+/* Estilizando o conteudo principal do site */
+section.container
+{
+  display: flex;
+}
+
+section.content
+{
+  width: 70%;
+}
+
+sidebar
+{
+  width: 30%;
+}
+
+.widget_title
+{
+  color: red;
+}
