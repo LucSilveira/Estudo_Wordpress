@@ -5,8 +5,8 @@
   box-sizing: border-box;
 }
 
-html{
-  background-color: black;
+body{
+  background-color: red;
   color: white;
 }
 
@@ -29,12 +29,12 @@ nav.nav_content_lst ul li
 }
 
 /* Estilizando o conteudo principal do site */
-section.container
+section.content-main
 {
   display: flex;
 }
 
-section.content
+div.content
 {
   width: 70%;
 }

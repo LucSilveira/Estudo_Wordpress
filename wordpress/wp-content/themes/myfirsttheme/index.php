@@ -1,10 +1,11 @@
 <!-- Meu primeiro arquivo de theme - arquivo para controle dos elementos da página de exibição -->
 <?php get_header(); ?>
 
-<section class="container">
-  <section class='content'>
-
-  </section>
+<section class="content-main">
+  <!-- Conteudo do site -->
+  <div class='container'>
+    
+  </div>
 
   <?php get_sidebar(); ?>
 
