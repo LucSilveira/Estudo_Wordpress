@@ -12,11 +12,10 @@
   function lm_after_setup()
   {
     // Habilitando a opção de menu no nosso tema
-    // add_theme_support( 'menus' );
-    add_theme_support( 'post-thumbnails' );
+    add_theme_support( 'menus' );
 
     // Registrando multiplos menus no tema
-    register_nav_menu( 'primary', __('Primary Menu', 'myfirsttheme'));
+    register_nav_menu( 'primary', __('Primary Menu', 'primeirotema'));
   }
 
   // Função para aplicar nossas ferramentas
@@ -24,7 +23,7 @@
   {
     // Criando um sidebar
     register_sidebar( array(
-                        "name" => __('Meu primeiro sidebar', 'myfirsttheme'),
+                        "name" => __('Meu primeiro sidebar', 'primeirotema'),
                         "id" => 'lm_sidebar_theme',
 
                         "before_title" => '<h4 class="widget_title">',
